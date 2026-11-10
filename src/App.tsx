@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Dashboard from './components/Dashboard'
+import Lessons from './components/Lessons'
+import LessonPage from './components/LessonPage'
 import { seedDatabase } from './db/seed'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
     <div className="min-h-screen">
       <Routes>
         <Route path="/" element={<Dashboard />} />
+        <Route path="/lessons" element={<Lessons />} />
+        <Route path="/lessons/:id" element={<LessonPage />} />
       </Routes>
     </div>
   )
