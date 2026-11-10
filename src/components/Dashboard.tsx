@@ -54,12 +54,18 @@ function Dashboard() {
         </div>
       </div>
 
-      <div className="mb-6">
+      <div className="mb-6 flex gap-3">
         <Link
           to="/lessons"
           className="inline-block bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 font-bold"
         >
           📚 مشاهدهٔ درس‌ها
+        </Link>
+        <Link
+          to="/flashcards"
+          className="inline-block bg-purple-600 text-white px-5 py-3 rounded-lg hover:bg-purple-700 font-bold"
+        >
+          🃏 مرور فلش‌کارت‌ها
         </Link>
       </div>
 
