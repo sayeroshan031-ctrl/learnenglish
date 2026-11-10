@@ -7,13 +7,12 @@ import { exportBackup, importBackup } from '@/utils/backup';
 function Dashboard() {
   const currentUser = useAppStore((s) => s.currentUser);
 
+  const userId = currentUser?.id ?? 'guest';
+
   const lessons = useLiveQuery(() => db.lessons.toArray());
   const progress = useLiveQuery(
-    () =>
-      currentUser
-        ? db.userProgress.where('userId').equals(currentUser.id).toArray()
-        : [],
-    [currentUser?.id]
+    () => db.userProgress.where('userId').equals(userId).toArray(),
+    [userId]
   );
 
   const handleExport = async () => {
