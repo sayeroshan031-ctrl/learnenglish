@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { useAppStore } from '@/store/useAppStore';
@@ -52,6 +53,15 @@ function Dashboard() {
             {currentUser?.currentLevel || '—'}
           </p>
         </div>
+      </div>
+
+      <div className="mb-6">
+        <Link
+          to="/lessons"
+          className="inline-block bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 font-bold"
+        >
+          📚 مشاهدهٔ درس‌ها
+        </Link>
       </div>
 
       <div className="bg-white p-4 rounded-lg shadow mb-6">
