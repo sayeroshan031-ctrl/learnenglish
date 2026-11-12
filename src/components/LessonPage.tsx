@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { useAppStore } from '@/store/useAppStore';
 import { MODULE_FA } from '@/utils/labels';
+import SpeakButton from './SpeakButton';
 
 function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -94,9 +95,10 @@ function LessonPage() {
               <li
                 key={i}
                 dir="ltr"
-                className="text-left bg-gray-50 rounded px-3 py-2"
+                className="flex items-center gap-2 text-left bg-gray-50 rounded px-3 py-2"
               >
-                {ex}
+                <span className="flex-1">{ex}</span>
+                <SpeakButton text={ex} />
               </li>
             ))}
           </ul>
