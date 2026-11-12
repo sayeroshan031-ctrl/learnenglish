@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { useAppStore } from '@/store/useAppStore';
 import { calculateSM2, getNextReviewDate } from '@/utils/sm2';
+import SpeakButton from './SpeakButton';
 
 const GRADES: { label: string; quality: number; className: string }[] = [
   { label: '😖 بلد نیستم', quality: 1, className: 'bg-red-600 hover:bg-red-700' },
@@ -132,6 +133,9 @@ function Flashcards() {
                 <p dir="ltr" className="text-gray-500">
                   {current.pronunciation}
                 </p>
+                <div className="mt-3">
+                  <SpeakButton text={current.word} />
+                </div>
               </div>
 
               {!flipped ? (
@@ -147,9 +151,10 @@ function Flashcards() {
                 <>
                   <div className="border-t pt-4 mt-2 text-center">
                     <p className="text-2xl font-bold mb-3">{current.meaning}</p>
-                    <p dir="ltr" className="text-left text-gray-600 bg-gray-50 rounded px-3 py-2">
-                      {current.exampleSentence}
-                    </p>
+                    <div dir="ltr" className="flex items-center gap-2 text-left text-gray-600 bg-gray-50 rounded px-3 py-2">
+                      <span className="flex-1">{current.exampleSentence}</span>
+                      <SpeakButton text={current.exampleSentence} />
+                    </div>
                   </div>
                   <p className="text-sm text-gray-500 mt-5 mb-2 text-center">
                     چقدر بلد بودی؟
