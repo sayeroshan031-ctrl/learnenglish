@@ -1,1 +1,43 @@
-IyDwn46TINiy2KjYp9mG4oCM24zYp9ixIHwgWmFiYW5ZYXIKCtin2b7ZhNuM2qnbjNi02YYg2KLZhdmI2LLYtCDYstio2KfZhiDYp9mG2q/ZhNuM2LPbjCDYqNinINix2KfYqNi3INmB2KfYsdiz24wg2Ygg2LHYp9iz2KrigIzahtuM2YYg4oCUINiv2LHYs+KAjNmH2KfbjCDYqti52KfZhdmE24zYjCDZgdmE2LTigIzaqdin2LHYqiDYqNinINmF2LHZiNixINmB2KfYtdmE2YfigIzYr9in2LEgKFNNLTIpINmIINm+24zar9uM2LHbjCDZvtuM2LTYsdmB2KrYjCDZh9mF2Ycg2KjZh+KAjNi12YjYsdiqINmF2K3ZhNuMINix2YjbjCDYr9iz2Krar9in2Ycg2qnYp9ix2KjYsS4KCioq8J+MkCDZhtiz2K7Zh9mUINiy2YbYr9mHOioqIGh0dHBzOi8vc2F5ZXJvc2hhbjAzMS1jdHJsLmdpdGh1Yi5pby9sZWFybmVuZ2xpc2gvCgojIyDinKgg2KfZhdqp2KfZhtin2KoKCi0gKirYotmG2KjZiNix2K/bjNmG2q8g2YXZh9mF2KfZhioqIOKAlCDYr9ixINin2YjZhNuM2YYg2YjYsdmI2K/YjCDZhtin2YXYjCDYs9i32K0g2YHYudmE24wgKEEwINiq2KcgQzEp2Iwg2KLYstmF2YjZhiDZh9iv2YEgKNii24zZhNiq2LMv2KrYp9mB2YQpINmIINmH2K/ZgSDZhdi32KfZhNi52YfZlCDYsdmI2LLYp9mG2Ycg2KvYqNiqINmF24zigIzYtNmI2K/YmyDYqNiv2YjZhiDZhtuM2KfYsiDYqNmHINiz2KfYrtiqINit2LPYp9io2Iwg2K/Yp9iv2YfigIzZh9inINix2YjbjCDZh9mF2KfZhiDYr9iz2Krar9in2Ycg2YXbjOKAjNmF2KfZhtivLgotICoq2K/Yp9i02KjZiNix2K8qKiDigJQg2KLZhdin2LEg2K/Ysdiz4oCM2YfYp9iMINm+24zYtNix2YHYqiDZiCDYs9i32K0g2YHYudmE24zYjCDZh9mF2LHYp9mHINio2Kcg2b7YtNiq24zYqNin2YbigIzar9uM2LHbjCDZiCDYqNin2LLbjNin2KjbjCBKU09OINin2LIg2qnZhCDYr9in2K/Zh+KAjNmH2KcuCi0gKirYr9ix2LPigIzZh9inKiogKGAvbGVzc29uc2ApIOKAlCDZgdmH2LHYs9iqINiv2LHYs+KAjNmH2Kcg2KjYsSDYp9iz2KfYsyDYs9i32K0g2Ygg2KjYrti02Iwg2LXZgdit2YfZlCDZh9ixINiv2LHYsyDYqNinINii2YXZiNiy2LTYjCDZhdir2KfZhCDZiCDZhtqp2KrZh9iMINiv2qnZhdmH2ZQgwqvYqtqp2YXbjNmEINiv2LHYs8K7INmIINmE24zZhtqpINiv2LHYsyDYqNi52K/bjC4KLSAqKtmB2YTYtOKAjNqp2KfYsdiq4oCM2YfYpyoqIChgL2ZsYXNoY2FyZHNgKSDigJQg2LXZgSDZhdix2YjYsSDYsdmI2LLYp9mG2Ycg2KjYsSDYp9iz2KfYsyDYp9mE2q/ZiNix24zYqtmFICoqU00tMioq2Jsg2obZh9in2LEg2K/Ysdis2YfZlCDYrtmI2K/Yp9ix2LLbjNin2KjbjCAo2KjZhNivINmG24zYs9iq2YUv2LPYrtiqL9iu2YjYqC/Yotiz2KfZhikg2Ygg2K3Yp9mE2Kog2KrZhdix24zZhiDYotiy2KfYr9mQINmH2YXZh9mUINqp2KfYsdiq4oCM2YfYpy4KLSAqKtiq2YTZgdi4INi12YjYqtuMKiog4oCUINiv2qnZhdmH2ZQg8J+UiiDYsdmI24wg2qnZhNmF2Ycg2Ygg2KzZhdmE2YfZlCDZhdir2KfZhNmQINmB2YTYtOKAjNqp2KfYsdiq4oCM2YfYpyDZiCDaqdmG2KfYsSDZhdir2KfZhOKAjNmH2KfbjCDZh9ixINiv2LHYs9ibINiq2YTZgdi4INio2Kcg2YXZiNiq2YjYsSDYtdiv2KfbjCDYr9in2K7ZhNuMINiv2LPYqtqv2KfZhyDaqdin2LHYqNixINm+2K7YtCDZhduM4oCM2LTZiNivIChXZWIgU3BlZWNoIEFQSSkg4oCUINio2K/ZiNmGINmB2KfbjNmEINi12YjYqtuMINmIINio2K/ZiNmGINiz2LHZiNixLgotICoq2LDYrtuM2LHZh+KAjNiz2KfYstuMINmF2K3ZhNuMKiog4oCUINmH2YXZh9mUINiv2KfYr9mH4oCM2YfYpyDYr9ixIEluZGV4ZWREQiAoRGV4aWUpINmG2q/Zh9iv2KfYsduMINmF24zigIzYtNmI2K8g2Ygg2KLZgdmE2KfbjNmGINmH2YUg2qnYp9ixINmF24zigIzaqdmG2K8uCgojIyDwn5ug77iPINmB2YbYp9mI2LHbjOKAjNmH2KcKClJlYWN0IDE4ICsgVHlwZVNjcmlwdCArIFZpdGUgNSArIFRhaWx3aW5kIENTUyAzICsgRGV4aWUgKEluZGV4ZWREQikgKyBadXN0YW5kICsgUmVhY3QgUm91dGVyIDYKCiMjIPCfmoAg2KfYrNix2KfbjCDZhdit2YTbjAoKYGBgYmFzaApucG0gaW5zdGFsbApucG0gcnVuIGRldiAgICAgICMg2YXYrduM2Lcg2KrZiNiz2LnZhwpucG0gcnVuIGJ1aWxkICAgICMg2LPYp9iu2Kog2YbYs9iu2YfZlCDYp9mG2KrYtNin2LEgKNiv2LEg2b7ZiNi02YfZlCBkaXN02Iwg2YfZhdix2KfZhyDYqNinIDQwNC5odG1sINio2LHYp9uMINmF2LPbjNix24zYp9io24wgU1BBKQpgYGAKCtin2YbYqti02KfYsSDYsdmI24wgR2l0SHViIFBhZ2VzINio2Kcg2YfYsSBQdXNoINix2YjbjCDYtNin2K7Zh9mUIGBtYWluYCDYqNmH4oCM2LXZiNix2Kog2K7ZiNiv2qnYp9ixINin2YbYrNin2YUg2YXbjOKAjNi02YjYryAoYC5naXRodWIvd29ya2Zsb3dzL3N0YXRpYy55bWxgKS4KCiMjIPCfl4LvuI8g2LPYp9iu2KrYp9ixINm+2LHZiNqY2YcKCmBgYApzcmMvCiAgY29tcG9uZW50cy8gICDYr9in2LTYqNmI2LHYr9iMINii2YbYqNmI2LHYr9uM2Ybar9iMINiv2LHYs+KAjNmH2Kcg2Ygg2YHZhNi04oCM2qnYp9ix2KrigIzZh9inCiAgZGIvICAgICAgICAgICDYqti52LHbjNmBINiv24zYqtin2KjbjNizIERleGllINmIINiv2KfYr9mH4oCM2YfYp9uMINin2YjZhNuM2YcgKHNlZWQpCiAgc3RvcmUvICAgICAgICDYp9iz2KrZiNixIFp1c3RhbmQgKNqp2KfYsdio2LEg2YHYudmE24wg2Ygg2YjYtti524zYqiDYotmG2KjZiNix2K/bjNmG2q8pCiAgdXRpbHMvICAgICAgICDYp9mE2q/ZiNix24zYqtmFIFNNLTLYjCDZvti02KrbjNio2KfZhuKAjNqv24zYsduMINmIINio2LHahtiz2KjigIzZh9in24wg2YHYp9ix2LPbjAogIHR5cGVzLyAgICAgICAg2KrYp9uM2b7igIzZh9in24wgVHlwZVNjcmlwdApgYGAKCiMjIPCfk4wg2YjYtti524zYqgoK2KjYsdmG2KfZhdmHINiv2LEg2K3Yp9mEINiq2YjYs9i52YfZlCDZgdi52KfZhCDYp9iz2KrYmyDYqNiz2KrZh9mUINmF2K3YqtmI2KfbjNuMINmI2KfZgti524wg2LPYt9itIEExICjbsduwINiv2LHYsyDZiCDbs9uwINmB2YTYtOKAjNqp2KfYsdiqKSDZhdmG2KrYtNixINi02K/ZhyDZiCDZhdit2KrZiNinINio2YfigIzYtdmI2LHYqiDZhtiz2K7Zh+KAjNio2YbYr9uM4oCM2LTYr9mHINio2YfigIzYsdmI2LIg2YXbjOKAjNi02YjYry4g2YbZgti02YfZlCDYsdin2Ycg2Ygg2b7bjNi02LHZgdiqINqp2KfYsSDYr9ixIFtJc3N1ZSAjMV0oaHR0cHM6Ly9naXRodWIuY29tL3NheWVyb3NoYW4wMzEtY3RybC9sZWFybmVuZ2xpc2gvaXNzdWVzLzEpINm+24zar9uM2LHbjCDZhduM4oCM2LTZiNivLgo=
+# 🎓 زبان‌یار | ZabanYar
+
+اپلیکیشن آموزش زبان انگلیسی با رابط فارسی و راست‌چین — درس‌های تعاملی، فلش‌کارت با مرور فاصله‌دار (SM-2) و پیگیری پیشرفت، همه به‌صورت محلی روی دستگاه کاربر.
+
+**🌐 نسخهٔ زنده:** https://sayeroshan031-ctrl.github.io/learnenglish/
+
+## ✨ امکانات
+
+- **آنبوردینگ مهمان** — در اولین ورود، نام، سطح فعلی (A0 تا C1)، آزمون هدف (آیلتس/تافل) و هدف مطالعهٔ روزانه ثبت می‌شود؛ بدون نیاز به ساخت حساب، داده‌ها روی همان دستگاه می‌ماند.
+- **داشبورد** — آمار درس‌ها، پیشرفت و سطح فعلی، همراه با پشتیبان‌گیری و بازیابی JSON از کل داده‌ها.
+- **درس‌ها** (`/lessons`) — فهرست درس‌ها بر اساس سطح و بخش، صفحهٔ هر درس با آموزش، مثال و نکته، دکمهٔ «تکمیل درس» و لینک درس بعدی.
+- **فلش‌کارت‌ها** (`/flashcards`) — صف مرور روزانه بر اساس الگوریتم **SM-2**؛ چهار درجهٔ خودارزیابی (بلد نیستم/سخت/خوب/آسان) و حالت تمرین آزادِ همهٔ کارت‌ها.
+- **تلفظ صوتی** — دکمهٔ 🔊 روی کلمه و جملهٔ مثالِ فلش‌کارت‌ها و کنار مثال‌های هر درس؛ تلفظ با موتور صدای داخلی دستگاه کاربر پخش می‌شود (Web Speech API) — بدون فایل صوتی و بدون سرور.
+- **ذخیره‌سازی محلی** — همهٔ داده‌ها در IndexedDB (Dexie) نگهداری می‌شود و آفلاین هم کار می‌کند.
+
+## 🛠️ فناوری‌ها
+
+React 18 + TypeScript + Vite 5 + Tailwind CSS 3 + Dexie (IndexedDB) + Zustand + React Router 6
+
+## 🚀 اجرای محلی
+
+```bash
+npm install
+npm run dev      # محیط توسعه
+npm run build    # ساخت نسخهٔ انتشار (در پوشهٔ dist، همراه با 404.html برای مسیریابی SPA)
+```
+
+انتشار روی GitHub Pages با هر Push روی شاخهٔ `main` به‌صورت خودکار انجام می‌شود (`.github/workflows/static.yml`).
+
+## 🗂️ ساختار پروژه
+
+```
+src/
+  components/   داشبورد، آنبوردینگ، درس‌ها و فلش‌کارت‌ها
+  db/           تعریف دیتابیس Dexie و داده‌های اولیه (seed)
+  store/        استور Zustand (کاربر فعلی و وضعیت آنبوردینگ)
+  utils/        الگوریتم SM-2، پشتیبان‌گیری و برچسب‌های فارسی
+  types/        تایپ‌های TypeScript
+```
+
+## 📌 وضعیت
+
+برنامه در حال توسعهٔ فعال است؛ بستهٔ محتوایی واقعی سطح A1 (۱۰ درس و ۳۰ فلش‌کارت) منتشر شده و محتوا به‌صورت نسخه‌بندی‌شده به‌روز می‌شود. نقشهٔ راه و پیشرفت کار در [Issue #1](https://github.com/sayeroshan031-ctrl/learnenglish/issues/1) پیگیری می‌شود.
