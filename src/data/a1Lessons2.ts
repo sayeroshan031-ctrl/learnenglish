@@ -1,1 +1,270 @@
-aW1wb3J0IHR5cGUgeyBMZXNzb24gfSBmcm9tICdAL3R5cGVzJzsKCi8qKgogKiBBMSBjb250ZW50IHBhY2sgMiAoY29udGVudCB2ZXJzaW9uIDMpIOKAlCBsZXNzb25zIDEx4oCTMjAuCiAqIENvbnRpbnVlcyB0aGUgcGFjay0xIHN5bGxhYnVzOiBwb3NzZXNzaW9uLCBkZW1vbnN0cmF0aXZlcywgcGxhY2UsCiAqIGFiaWxpdHksIHByZXNlbnQgY29udGludW91cywgY2FsZW5kYXIsIHdlYXRoZXIsIHNob3BwaW5nLCByZXN0YXVyYW50LAogKiBhZGplY3RpdmVzIGFuZCBjb21wYXJpc29uLiBTZWxmLWNvbnRhaW5lZDogbm8gZXh0ZXJuYWwgbWVkaWEuCiAqLwpleHBvcnQgY29uc3QgYTFMZXNzb25zMjogTGVzc29uW10gPSBbCiAgewogICAgaWQ6ICdsZXNzb24tMDExJywKICAgIG1vZHVsZTogJ0dyYW1tYXInLAogICAgY2VmckxldmVsOiAnQTEnLAogICAgdGl0bGU6ICfZhdin2YTaqduM2Ko6IG15IC8geW91ciAvIGhpcyDZiCDigJlzJywKICAgIG9yZGVyOiAxMSwKICAgIGNvbnRlbnQ6IHsKICAgICAgdGhlb3J5OgogICAgICAgICc8cD7YqNix2KfbjCDar9mB2KrZhiDCq9mF2KfZhNmQINqp24zCuyDYp9iyINin24zZhiDaqdmE2YXZh+KAjNmH2Kcg2KfYs9iq2YHYp9iv2Ycg2YXbjOKAjNqp2YbbjNmFOiA8c3Ryb25nPm15PC9zdHJvbmc+ICjZhdin2YQg2YXZhinYjCA8c3Ryb25nPnlvdXI8L3N0cm9uZz4gKNmF2KfZhCDYqtmIL9i02YXYpynYjCA8c3Ryb25nPmhpczwvc3Ryb25nPiAo2YXYp9mEINin2Ygg4oCTINmF2LHYrynYjCA8c3Ryb25nPmhlcjwvc3Ryb25nPiAo2YXYp9mEINin2Ygg4oCTINiy2YYp2IwgPHN0cm9uZz5vdXI8L3N0cm9uZz4gKNmF2KfZhCDZhdinKdiMIDxzdHJvbmc+dGhlaXI8L3N0cm9uZz4gKNmF2KfZhCDYotmG4oCM2YfYpykuINin24zZhuKAjNmH2Kcg2YfZhduM2LTZhyDZgtio2YQg2KfYsiDYp9iz2YUg2YXbjOKAjNii24zZhtivOiA8ZW0+bXkgYm9vazwvZW0+IOKAlCDaqdiq2KfYqCDZhdmGLjwvcD48cD7Ysdin2Ycg2K/ZiNmF2Iwg2KLZvtin2LPYqtix2YjZgSBzINin2LPYqjogPHN0cm9uZz5BbGnigJlzIGNhcjwvc3Ryb25nPiDbjNi52YbbjCDCq9mF2KfYtNuM2YbZkCDYudmE24zCuy4g2KjYsdin24wg2KzZhdi54oCM2YfYpyBzINii2K7YsSDYrNmF2YTZhyDZhduM4oCM2LHZiNivINio2LnYryDYp9iyIHMg2KzZhdi5OiA8ZW0+dGhlIHN0dWRlbnRz4oCZIGJvb2tzPC9lbT4uPC9wPicsCiAgICAgIGV4YW1wbGVzOiBbCiAgICAgICAgJ1RoaXMgaXMgbXkgcGhvbmUuIOKAlCDYp9uM2YYg2q/ZiNi024zZkCDZhdmGINin2LPYqi4nLAogICAgICAgICdIZXIgbmFtZSBpcyBNYXJ5YW0uIOKAlCDYp9iz2YUg2KfZiCDZhdix24zZhSDYp9iz2KouJywKICAgICAgICAnT3VyIGhvdXNlIGlzIGJpZy4g4oCUINiu2KfZhtmH2ZQg2YXYpyDYqNiy2LHaryDYp9iz2KouJywKICAgICAgICAnVGhhdCBpcyBSZXph4oCZcyBiaWtlLiDigJQg2KLZhiDYr9mI2obYsdiu2YfZlCDYsdi22KfYs9iqLicsCiAgICAgICAgJ1RoZWlyIGNoaWxkcmVuIGFyZSBhdCBzY2hvb2wuIOKAlCDYqNqG2YfigIzZh9in24wg2KLZhuKAjNmH2Kcg2K/YsSDZhdiv2LHYs9mH4oCM2KfZhtivLicsCiAgICAgICAgJ0lzIHRoaXMgeW91ciBiYWc/IOKAlCDYp9uM2YYg2qnbjNmB2ZAg2KrZiNiz2KrYnycsCiAgICAgIF0sCiAgICAgIHRpcHM6IFsKICAgICAgICAnaGlzINmB2YLYtyDYqNix2KfbjCDZhdix2K8g2YggaGVyINmB2YLYtyDYqNix2KfbjCDYstmGINin2LPYqtibINin2LTYqtio2KfZhyDYsdin24zYrCDZgdin2LHYs9uM4oCM2LLYqNin2YbigIzZh9inLicsCiAgICAgICAgJ2l0cyDbjNi52YbbjCDCq9mF2KfZhNmQINii2YYgKNqG24zYsi/YrduM2YjYp9mGKcK7INmIINio2KcgaXTigJlzICjZhdiu2YHZgSBpdCBpcykg2YHYsdmCINiv2KfYsdivLicsCiAgICAgIF0sCiAgICB9LAogICAgbWVkaWE6IHt9LAogICAgZXN0aW1hdGVkTWludXRlczogOCwKICAgIHRhZ3M6IFsnZ3JhbW1hcicsICdwb3NzZXNzaXZlJywgJ2ExJ10sCiAgfSwKICB7CiAgICBpZDogJ2xlc3Nvbi0wMTInLAogICAgbW9kdWxlOiAnR3JhbW1hcicsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9in24zZhiDZiCDYotmGICsg2KzZhdi5INio2LPYqtmGINin2LPZheKAjNmH2KcnLAogICAgb3JkZXI6IDEyLAogICAgY29udGVudDogewogICAgICB0aGVvcnk6CiAgICAgICAgJzxwPtqG2YfYp9ixINqp2YTZhdmH2ZQg2KfYtNin2LHZhyDYr9in2LHbjNmFOiA8c3Ryb25nPnRoaXM8L3N0cm9uZz4gKNin24zZhtiMINmG2LLYr9uM2qkg2Ygg2YXZgdix2K8p2IwgPHN0cm9uZz50aGF0PC9zdHJvbmc+ICjYotmG2Iwg2K/ZiNixINmIINmF2YHYsdivKdiMIDxzdHJvbmc+dGhlc2U8L3N0cm9uZz4gKNin24zZhuKAjNmH2KfYjCDZhtiy2K/bjNqpINmIINis2YXYuSnYjCA8c3Ryb25nPnRob3NlPC9zdHJvbmc+ICjYotmG4oCM2YfYp9iMINiv2YjYsSDZiCDYrNmF2LkpLjwvcD48cD7YrNmF2Lkg2KjYs9iq2YYg2YXYudmF2YjZhNin2Ysg2KjYpyA8c3Ryb25nPi1zPC9zdHJvbmc+INin2LPYqjogPGVtPmJvb2sg4oaSIGJvb2tzPC9lbT4uINin2q/YsSDaqdmE2YXZhyDYqNmHIHPYjCB42IwgY2gg24zYpyBzaCDYqtmF2KfZhSDYtNmI2K8gPHN0cm9uZz4tZXM8L3N0cm9uZz4g2YXbjOKAjNqv24zYsdivOiA8ZW0+YnVzIOKGkiBidXNlc9iMIHdhdGNoIOKGkiB3YXRjaGVzPC9lbT4uINin2q/YsSDYqNmHINit2LHZgSDYqNuM4oCM2LXYr9inICsgeSDYqtmF2KfZhSDYtNmI2K/YjCB5INmF24zigIzYtNmI2K8gPHN0cm9uZz5pZXM8L3N0cm9uZz46IDxlbT5jaXR5IOKGkiBjaXRpZXM8L2VtPi4g2obZhtivINis2YXYuSDYqNuM4oCM2YLYp9i52K/Zh9mUINmF2YfZhTogPGVtPm1hbiDihpIgbWVu2Iwgd29tYW4g4oaSIHdvbWVu2IwgY2hpbGQg4oaSIGNoaWxkcmVu2IwgcGVyc29uIOKGkiBwZW9wbGU8L2VtPi48L3A+JywKICAgICAgZXhhbXBsZXM6IFsKICAgICAgICAnVGhpcyBpcyBteSBib29rLiDigJQg2KfbjNmGINqp2KrYp9ioINmF2YYg2KfYs9iqLicsCiAgICAgICAgJ1Rob3NlIGFyZSBteSBmcmllbmRzLiDigJQg2KLZhuKAjNmH2Kcg2K/ZiNiz2KrYp9mGINmF2YbigIzYp9mG2K8uJywKICAgICAgICAnVGhlc2Ugc2hvZXMgYXJlIG5ldy4g4oCUINin24zZhiDaqdmB2LTigIzZh9inINiq2KfYstmH4oCM2KfZhtivLicsCiAgICAgICAgJ0kgaGF2ZSB0d28gd2F0Y2hlcy4g4oCUINmF2YYg2K/ZiCDYs9in2LnYqiAo2YXahtuMKSDYr9in2LHZhS4nLAogICAgICAgICdUaGVyZSBhcmUgdGhyZWUgY2hpbGRyZW4gaW4gdGhlIHBhcmsuIOKAlCDYs9mHINio2obZhyDYr9ixINm+2KfYsdqpINmH2LPYqtmG2K8uJywKICAgICAgICAnVGhlc2UgY2l0aWVzIGFyZSBvbGQuIOKAlCDYp9uM2YYg2LTZh9ix2YfYpyDZgtiv24zZhduM4oCM2KfZhtivLicsCiAgICAgIF0sCiAgICAgIHRpcHM6IFsKICAgICAgICAncGVvcGxlINiu2YjYr9i0INis2YXYuSDYp9iz2KrYmyDZhtqv2YjbjNuM2YUgcGVvcGxlcy4nLAogICAgICAgICd0aGVzZSDYsdinIMKr2K/bjNiywrsg2YggdGhvc2Ug2LHYpyDCq9iv2Y/ZiNiywrsg2KrZhNmB2Lgg2YXbjOKAjNqp2YbbjNmFLicsCiAgICAgIF0sCiAgICB9LAogICAgbWVkaWE6IHt9LAogICAgZXN0aW1hdGVkTWludXRlczogOSwKICAgIHRhZ3M6IFsnZ3JhbW1hcicsICdwbHVyYWxzJywgJ2RlbW9uc3RyYXRpdmVzJ10sCiAgfSwKICB7CiAgICBpZDogJ2xlc3Nvbi0wMTMnLAogICAgbW9kdWxlOiAnR3JhbW1hcicsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9it2LHZiNmBINin2LbYp9mB2YfZlCDZhdqp2KfZhjog2qnYrNin2LPYqtifJywKICAgIG9yZGVyOiAxMywKICAgIGNvbnRlbnQ6IHsKICAgICAgdGhlb3J5OgogICAgICAgICc8cD7YqNix2KfbjCDar9mB2KrZhiDYrNin24wg2obbjNiy2YfYpzogPHN0cm9uZz5pbjwvc3Ryb25nPiAo2K/Yp9iu2YQp2IwgPHN0cm9uZz5vbjwvc3Ryb25nPiAo2LHZiNuMINiz2LfYrSnYjCA8c3Ryb25nPnVuZGVyPC9zdHJvbmc+ICjYstuM2LEp2IwgPHN0cm9uZz5uZXh0IHRvPC9zdHJvbmc+ICjaqdmG2KfYsSnYjCA8c3Ryb25nPmJlaGluZDwvc3Ryb25nPiAo2b7YtNiqKdiMIDxzdHJvbmc+aW4gZnJvbnQgb2Y8L3N0cm9uZz4gKNis2YTZiCnYjCA8c3Ryb25nPmJldHdlZW48L3N0cm9uZz4gKNio24zZhiDYr9mIINqG24zYsikuPC9wPjxwPtiz2KTYp9mE2ZAgwqvaqdis2KfYs9iq2J/CuyDZhduM4oCM2LTZiNivOiA8c3Ryb25nPldoZXJlIGlzIOKApj88L3N0cm9uZz4g2Ygg2KjYpyDYp9mE2q/ZiNuMINiv2LHYsyDbsduwINis2YjYp9ioINmF24zigIzYr9mH24zZhTogPGVtPlRoZSBjYXQgaXMgdW5kZXIgdGhlIHRhYmxlLjwvZW0+PC9wPicsCiAgICAgIGV4YW1wbGVzOiBbCiAgICAgICAgJ1RoZSBib29rIGlzIG9uIHRoZSB0YWJsZS4g4oCUINqp2KrYp9ioINix2YjbjCDZhduM2LIg2KfYs9iqLicsCiAgICAgICAgJ1RoZSBjYXQgaXMgdW5kZXIgdGhlIGNoYWlyLiDigJQg2q/Ysdio2Ycg2LLbjNixINi12YbYr9mE24wg2KfYs9iqLicsCiAgICAgICAgJ015IGJhZyBpcyBuZXh0IHRvIHRoZSBkb29yLiDigJQg2qnbjNmB2YUg2qnZhtin2LEg2K/YsSDYp9iz2KouJywKICAgICAgICAnVGhlIGJhbmsgaXMgYmV0d2VlbiB0aGUgY2Fmw6kgYW5kIHRoZSBzaG9wLiDigJQg2KjYp9mG2qkg2KjbjNmGINqp2KfZgdmHINmIINmF2LrYp9iy2Ycg2KfYs9iqLicsCiAgICAgICAgJ1doZXJlIGlzIHRoZSBrZXk/IEl0IGlzIGluIG15IHBvY2tldC4g4oCUINqp2YTbjNivINqp2KzYp9iz2KrYnyDYqtmI24wg2KzbjNio2YUg2KfYs9iqLicsCiAgICAgICAgJ1RoZSBjYXIgaXMgaW4gZnJvbnQgb2YgdGhlIGhvdXNlLiDigJQg2YXYp9i024zZhiDYrNmE2YjbjCDYrtin2YbZhyDYp9iz2KouJywKICAgICAgXSwKICAgICAgdGlwczogWwogICAgICAgICdvbiDYqNix2KfbjCDCq9ix2YjbjCDYs9i32K3CuyDYp9iz2Ko6IG9uIHRoZSB3YWxsICjYsdmI24wg2K/bjNmI2KfYsSnYjCBvbiB0aGUgdGFibGUuJywKICAgICAgICAnYXQg2KjYsdin24wg2YbYtNin2YbbjCDZiCDZhdqp2KfZhuKAjNmH2KfbjCDZhdi02K7YtSDZhduM4oCM2KLbjNivOiBhdCBob21l2IwgYXQgc2Nob29sLicsCiAgICAgIF0sCiAgICB9LAogICAgbWVkaWE6IHt9LAogICAgZXN0aW1hdGVkTWludXRlczogOCwKICAgIHRhZ3M6IFsnZ3JhbW1hcicsICdwcmVwb3NpdGlvbnMnLCAncGxhY2UnXSwKICB9LAogIHsKICAgIGlkOiAnbGVzc29uLTAxNCcsCiAgICBtb2R1bGU6ICdHcmFtbWFyJywKICAgIGNlZnJMZXZlbDogJ0ExJywKICAgIHRpdGxlOiAn2KrZiNin2YbYp9uM24w6IGNhbiDZiCBjYW7igJl0JywKICAgIG9yZGVyOiAxNCwKICAgIGNvbnRlbnQ6IHsKICAgICAgdGhlb3J5OgogICAgICAgICc8cD48c3Ryb25nPmNhbjwvc3Ryb25nPiDbjNi52YbbjCDCq9mF24zigIzYqtmI2KfZhtmFIC8g2KjZhNiv2YXCuyDZiCA8c3Ryb25nPmNhbuKAmXQ8L3N0cm9uZz4g24zYudmG24wgwqvZhtmF24zigIzYqtmI2KfZhtmFwrsuINio2LnYryDYp9iyIGNhbiDZh9mF24zYtNmHINi02qnZhCDYs9in2K/Zh9mUINmB2LnZhCDZhduM4oCM2KLbjNiv2Iwg2KjYr9mI2YYgdG86IDxlbT5JIGNhbiBzd2ltPC9lbT4gKNmG2q/bjNivIEkgY2FuIHRvIHN3aW0pLjwvcD48cD7Ys9ik2KfZhNuMOiA8ZW0+Q2FuIHlvdSBkcml2ZT88L2VtPiDigJQg2KzZiNin2Kgg2qnZiNiq2KfZhzogPGVtPlllcywgSSBjYW4uIC8gTm8sIEkgY2Fu4oCZdC48L2VtPiDYqNix2KfbjCDYr9ix2K7ZiNin2LPYqiDZhdik2K/YqNin2YbZhyDZh9mFINmF24zigIzar9mI24zbjNmFOiA8ZW0+Q2FuIHlvdSBoZWxwIG1lLCBwbGVhc2U/PC9lbT48L3A+JywKICAgICAgZXhhbXBsZXM6IFsKICAgICAgICAnSSBjYW4gc3BlYWsgRW5nbGlzaC4g4oCUINmF24zigIzYqtmI2KfZhtmFINin2Ybar9mE24zYs9uMINi12K3YqNiqINqp2YbZhS4nLAogICAgICAgICdTaGUgY2FuIHJpZGUgYSBiaWtlLiDigJQg2KfZiCDZhduM4oCM2KrZiNin2YbYryDYr9mI2obYsdiu2YfigIzYs9mI2KfYsduMINqp2YbYry4nLAogICAgICAgICdIZSBjYW7igJl0IGRyaXZlLiDigJQg2KfZiCDZhtmF24zigIzYqtmI2KfZhtivINix2KfZhtmG2K/ar9uMINqp2YbYry4nLAogICAgICAgICdDYW4geW91IHN3aW0/IOKAlCBZZXMsIEkgY2FuLiDigJQg2LTZhtinINio2YTYr9uM2J8g2KjZhNmHLicsCiAgICAgICAgJ1dlIGNhbiBwbGF5IGZvb3RiYWxsIHRvZGF5LiDigJQg2KfZhdix2YjYsiDZhduM4oCM2KrZiNin2YbbjNmFINmB2YjYqtio2KfZhCDYqNin2LLbjCDaqdmG24zZhS4nLAogICAgICAgICdDYW4geW91IGhlbHAgbWUsIHBsZWFzZT8g4oCUINmF24zigIzYtNmI2K8g2qnZhdqp2YUg2qnZhtuM2Iwg2YTYt9mB2KfZi9ifJywKICAgICAgXSwKICAgICAgdGlwczogWwogICAgICAgICdjYW4g2KjYsdin24wg2YfZhdmH2ZQg2YHYp9i52YTigIzZh9inINuM2qnbjCDYp9iz2Ko6IEkgY2Fu2IwgaGUgY2Fu2IwgdGhleSBjYW4g4oCUIHMg2YbZhduM4oCM2q/bjNix2K8uJywKICAgICAgICAn2K/YsSDZhdiq2YYg2LHYs9mF24wgY2Fu4oCZdCDYsdinIGNhbm5vdCDZh9mFINmF24zigIzZhtmI24zYs9mG2K8uJywKICAgICAgXSwKICAgIH0sCiAgICBtZWRpYToge30sCiAgICBlc3RpbWF0ZWRNaW51dGVzOiA3LAogICAgdGFnczogWydncmFtbWFyJywgJ2NhbicsICdhYmlsaXR5J10sCiAgfSwKICB7CiAgICBpZDogJ2xlc3Nvbi0wMTUnLAogICAgbW9kdWxlOiAnR3JhbW1hcicsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9it2KfZhCDYp9iz2KrZhdix2KfYsduMOiDZh9mF24zZhiDYp9mE2KfZhicsCiAgICBvcmRlcjogMTUsCiAgICBjb250ZW50OiB7CiAgICAgIHRoZW9yeToKICAgICAgICAnPHA+2KjYsdin24wg2qnYp9ix24wg2qnZhyA8c3Ryb25nPtmH2YXbjNmGINin2YTYp9mGINiv2LEg2K3Yp9mEINin2YbYrNin2YU8L3N0cm9uZz4g2KfYs9iqOiDZgdin2LnZhCArIDxzdHJvbmc+YW0vaXMvYXJlPC9zdHJvbmc+ICsg2YHYudmEINio2KcgPHN0cm9uZz4taW5nPC9zdHJvbmc+OiA8ZW0+SSBhbSByZWFkaW5nIG5vdzwvZW0+LjwvcD48cD7ZhdmG2YHbjDogPGVtPlNoZSBpcyBub3Qgc2xlZXBpbmc8L2VtPi4g2LPYpNin2YTbjDogPGVtPkFyZSB5b3Ugd29ya2luZz88L2VtPiDahtmG2K8g2YLYp9i52K/Zh9mUIC1pbmc6INin2q/YsSDZgdi52YQg2KjZhyBlINiq2YXYp9mFINi02YjYryBlINit2LDZgSDZhduM4oCM2LTZiNivICg8ZW0+d3JpdGUg4oaSIHdyaXRpbmc8L2VtPinYmyDZgdi52YTigIzZh9in24wg2qnZiNiq2KfZhyDYqNinINuM2qkg2K3YsdmBINi12K/Yp9iv2KfYsSDZhdi52YXZiNmE2KfZiyDYrdix2YEg2KLYrtix2LTYp9mGINiv2YjYqtinINmF24zigIzYtNmI2K8gKDxlbT5ydW4g4oaSIHJ1bm5pbmfYjCBzaXQg4oaSIHNpdHRpbmc8L2VtPikuPC9wPjxwPtmB2LHZgti0INio2Kcg2K3Yp9mEINiz2KfYr9mHOiDYrdin2YQg2LPYp9iv2YcgPSDYudin2K/YqiDZiCDZh9mF24zYtNmHICg8ZW0+SSByZWFkIGV2ZXJ5IG5pZ2h0PC9lbT4p2Jsg2KfYs9iq2YXYsdin2LHbjCA9INmB2YLYtyDYp9mE2KfZhiAoPGVtPkkgYW0gcmVhZGluZyBub3c8L2VtPikuPC9wPicsCiAgICAgIGV4YW1wbGVzOiBbCiAgICAgICAgJ0kgYW0gc3R1ZHlpbmcgRW5nbGlzaCBub3cuIOKAlCDYp9mE2KfZhiDYr9in2LHZhSDYp9mG2q/ZhNuM2LPbjCDZhduM4oCM2K7ZiNin2YbZhS4nLAogICAgICAgICdMb29rISBJdCBpcyByYWluaW5nLiDigJQg2Ybar9in2Ycg2qnZhiEg2K/Yp9ix2K8g2KjYp9ix2KfZhiDZhduM4oCM2KjYp9ix2K8uJywKICAgICAgICAnVGhleSBhcmUgcGxheWluZyBpbiB0aGUgZ2FyZGVuLiDigJQg2K/Yp9ix2YbYryDYr9ixINio2KfYuiDYqNin2LLbjCDZhduM4oCM2qnZhtmG2K8uJywKICAgICAgICAnU2hlIGlzIG5vdCBsaXN0ZW5pbmcuIOKAlCDYp9mIINqv2YjYtCDZhtmF24zigIzYr9mH2K8uJywKICAgICAgICAnV2hhdCBhcmUgeW91IGRvaW5nPyDigJQg2K/Yp9ix24wg2obZhyDaqdin2LEg2YXbjOKAjNqp2YbbjNifJywKICAgICAgICAnSGUgaXMgcnVubmluZyB0byBzY2hvb2wuIOKAlCDYr9in2LHYryDYqNmHINi32LHZgSDZhdiv2LHYs9mHINmF24zigIzYr9mI2K8uJywKICAgICAgXSwKICAgICAgdGlwczogWwogICAgICAgICfZhti02KfZhtmH4oCM2YfYp9uMINin24zZhiDYstmF2KfZhjogbm932IwgcmlnaHQgbm932IwgTG9vayHYjCBMaXN0ZW4hJywKICAgICAgICAn2YHYudmE4oCM2YfYp9uM24wg2YXYq9mEIGtub3cg2Yggd2FudCDZhdi52YXZiNmE2KfZiyAtaW5nINmG2YXbjOKAjNqv24zYsdmG2K8uJywKICAgICAgXSwKICAgIH0sCiAgICBtZWRpYToge30sCiAgICBlc3RpbWF0ZWRNaW51dGVzOiAxMCwKICAgIHRhZ3M6IFsnZ3JhbW1hcicsICdwcmVzZW50LWNvbnRpbnVvdXMnXSwKICB9LAogIHsKICAgIGlkOiAnbGVzc29uLTAxNicsCiAgICBtb2R1bGU6ICdWb2NhYicsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9mF2KfZh+KAjNmH2KfYjCDZgdi12YTigIzZh9inINmIINiq2KfYsduM2K4nLAogICAgb3JkZXI6IDE2LAogICAgY29udGVudDogewogICAgICB0aGVvcnk6CiAgICAgICAgJzxwPtmF2KfZh+KAjNmH2KfbjCDZhduM2YTYp9iv24w6IDxzdHJvbmc+SmFudWFyeSwgRmVicnVhcnksIE1hcmNoLCBBcHJpbCwgTWF5LCBKdW5lLCBKdWx5LCBBdWd1c3QsIFNlcHRlbWJlciwgT2N0b2JlciwgTm92ZW1iZXIsIERlY2VtYmVyPC9zdHJvbmc+LiDZgdi12YTigIzZh9inOiA8c3Ryb25nPnNwcmluZzwvc3Ryb25nPiAo2KjZh9in2LHbjCnYjCA8c3Ryb25nPnN1bW1lcjwvc3Ryb25nPiAo2KrYp9io2LPYqtin2YYp2IwgPHN0cm9uZz5hdXR1bW48L3N0cm9uZz4gKNm+2KfbjNuM2LIp2IwgPHN0cm9uZz53aW50ZXI8L3N0cm9uZz4gKNiy2YXYs9iq2KfZhikuPC9wPjxwPtio2LHYp9uMINiq2KfYsduM2K4g2KfYsiDYp9i52K/Yp9ivINiq2LHYqtuM2KjbjCDYp9iz2KrZgdin2K/ZhyDZhduM4oCM2qnZhtuM2YU6IDxlbT5maXJzdCAoMXN0KSwgc2Vjb25kICgybmQpLCB0aGlyZCAoM3JkKSwgZm91cnRoICg0dGgpPC9lbT4g2Ygg2KjYudivINin2YTar9mIINuM2qnbjCDYp9iz2Ko6IDxlbT5maWZ0aCwgc2l4dGjigKYgdHdlbnRpZXRoLCB0d2VudHktZmlyc3Q8L2VtPi4g2KrYp9ix24zYriDYsdinINin24zZhuKAjNi32YjYsSDZhduM4oCM2q/ZiNuM24zZhTogPGVtPm15IGJpcnRoZGF5IGlzIG9uIE1heSAzcmQ8L2VtPiDigJQg2KjYpyDYrdix2YEg2KfYttin2YHZh9mUIDxzdHJvbmc+b248L3N0cm9uZz4g2KjYsdin24wg2LHZiNiyINmIINiq2KfYsduM2K7YjCDZiCA8c3Ryb25nPmluPC9zdHJvbmc+INio2LHYp9uMINmF2KfZhyDZiCDZgdi12YQg2Ygg2LPYp9mELjwvcD4nLAogICAgICBleGFtcGxlczogWwogICAgICAgICdNeSBiaXJ0aGRheSBpcyBpbiBKdW5lLiDigJQg2KrZiNmE2K/ZhSDYr9ixINmF2KfZhyDamNmI2KbZhiDYp9iz2KouJywKICAgICAgICAnU2Nob29sIHN0YXJ0cyBvbiBTZXB0ZW1iZXIgMXN0LiDigJQg2YXYr9ix2LPZhyDYp9mI2YQg2LPZvtiq2KfZhdio2LEg2LTYsdmI2Lkg2YXbjOKAjNi02YjYry4nLAogICAgICAgICdJdCBpcyBjb2xkIGluIHdpbnRlci4g4oCUINiv2LEg2LLZhdiz2KrYp9mGINmH2YjYpyDYs9ix2K8g2KfYs9iqLicsCiAgICAgICAgJ0hlciBiaXJ0aGRheSBpcyBvbiB0aGUgMjFzdCBvZiBNYXJjaC4g4oCUINiq2YjZhNivINin2Ygg27LbsSDZhdin2LHYsyDYp9iz2KouJywKICAgICAgICAnV2UgdHJhdmVsIGluIHN1bW1lci4g4oCUINmF2Kcg2K/YsSDYqtin2KjYs9iq2KfZhiDYs9mB2LEg2YXbjOKAjNqp2YbbjNmFLicsCiAgICAgICAgJ1RvZGF5IGlzIHRoZSB0aGlyZCBvZiBNYXkuIOKAlCDYp9mF2LHZiNiyINiz2YjZhSDZhdmHINin2LPYqi4nLAogICAgICBdLAogICAgICB0aXBzOiBbCiAgICAgICAgJ9mF2KfZh+KAjNmH2Kcg2K/YsSDYp9mG2q/ZhNuM2LPbjCDZh9mF24zYtNmHINio2Kcg2K3YsdmBINio2LLYsdqvINmG2YjYtNiq2Ycg2YXbjOKAjNi02YjZhtivLicsCiAgICAgICAgJ29uINio2LHYp9uMINix2YjYsiDZhdi02K7YtdiMIGluINio2LHYp9uMINmF2KfZhy/Zgdi12YQv2LPYp9mEIOKAlCDYp9uM2YYg2KrZhdin24zYsiDYsdinINit2YHYuCDaqdmG24zYry4nLAogICAgICBdLAogICAgfSwKICAgIG1lZGlhOiB7fSwKICAgIGVzdGltYXRlZE1pbnV0ZXM6IDgsCiAgICB0YWdzOiBbJ3ZvY2FidWxhcnknLCAnbW9udGhzJywgJ2RhdGVzJ10sCiAgfSwKICB7CiAgICBpZDogJ2xlc3Nvbi0wMTcnLAogICAgbW9kdWxlOiAnVm9jYWInLAogICAgY2VmckxldmVsOiAnQTEnLAogICAgdGl0bGU6ICfYotio4oCM2YjZh9mI2Kcg2Ygg2YTYqNin2LMnLAogICAgb3JkZXI6IDE3LAogICAgY29udGVudDogewogICAgICB0aGVvcnk6CiAgICAgICAgJzxwPtiz2KTYp9mE2ZAg2YfZiNinOiA8c3Ryb25nPldoYXTigJlzIHRoZSB3ZWF0aGVyIGxpa2UgdG9kYXk/PC9zdHJvbmc+INis2YjYp9ioINio2KcgPHN0cm9uZz5JdCBpczwvc3Ryb25nPiDYtNix2YjYuSDZhduM4oCM2LTZiNivOiA8ZW0+SXQgaXMgc3Vubnk8L2VtPiAo2KLZgdiq2KfYqNuMKdiMIDxlbT5jbG91ZHk8L2VtPiAo2KfYqNix24wp2IwgPGVtPndpbmR5PC9lbT4gKNio2KfYr9uMKdiMIDxlbT5yYWlueTwvZW0+ICjYqNin2LHYp9mG24wp2IwgPGVtPnNub3d5PC9lbT4gKNio2LHZgduMKdiMIDxlbT5ob3QgLyB3YXJtIC8gY29vbCAvIGNvbGQ8L2VtPiAo2q/YsdmFIC8g2YXZhNin24zZheKAjNqv2LHZhSAvINiu2YbaqSAvINiz2LHYrykuINio2LHYp9uMINio2KfYsdin2YYg2Ygg2KjYsdmB2ZAg2K/YsSDYrdin2YQg2KjYp9ix2LQ6IDxlbT5JdCBpcyByYWluaW5nIC8gc25vd2luZzwvZW0+ICjYr9ix2LMg27HbtSkuPC9wPjxwPtmE2KjYp9iz4oCM2YfYpzogPHN0cm9uZz5zaGlydDwvc3Ryb25nPiAo2b7bjNix2KfZh9mGKdiMIDxzdHJvbmc+VC1zaGlydDwvc3Ryb25nPtiMIDxzdHJvbmc+dHJvdXNlcnM8L3N0cm9uZz4gKNi02YTZiNin2LEp2IwgPHN0cm9uZz5kcmVzczwvc3Ryb25nPiAo2b7bjNix2KfZh9mGINiy2YbYp9mG2Ycp2IwgPHN0cm9uZz5jb2F0PC9zdHJvbmc+ICjZvtin2YTYqtmIKdiMIDxzdHJvbmc+amFja2V0PC9zdHJvbmc+ICjaqdin2b7YtNmGKdiMIDxzdHJvbmc+c2hvZXM8L3N0cm9uZz4gKNqp2YHYtCnYjCA8c3Ryb25nPmhhdDwvc3Ryb25nPiAo2qnZhNin2Ycp2IwgPHN0cm9uZz5nbGFzc2VzPC9zdHJvbmc+ICjYuduM2YbaqSkuINm+2YjYtNuM2K/ZhiA9IDxlbT53ZWFyPC9lbT46IDxlbT5TaGUgaXMgd2VhcmluZyBhIHJlZCBkcmVzcy48L2VtPjwvcD4nLAogICAgICBleGFtcGxlczogWwogICAgICAgICdJdCBpcyBzdW5ueSBhbmQgd2FybSB0b2RheS4g4oCUINin2YXYsdmI2LIg2YfZiNinINii2YHYqtin2KjbjCDZiCDar9ix2YUg2KfYs9iqLicsCiAgICAgICAgJ0l0IGlzIHZlcnkgY29sZCBpbiBZYXpkIGluIHdpbnRlci4g4oCUINiy2YXYs9iq2KfZhiDYr9ixINuM2LLYryDYrtuM2YTbjCDYs9ix2K8g2KfYs9iqLicsCiAgICAgICAgJ1doYXTigJlzIHRoZSB3ZWF0aGVyIGxpa2U/IOKAlCBJdOKAmXMgY2xvdWR5LiDigJQg2YfZiNinINqG2LfZiNixINin2LPYqtifINin2KjYsduMINin2LPYqi4nLAogICAgICAgICdIZSBpcyB3ZWFyaW5nIGEgYmxhY2sgY29hdC4g4oCUINin2Ygg2b7Yp9mE2KrZiNuMINmF2LTaqduMINm+2YjYtNuM2K/ZhyDYp9iz2KouJywKICAgICAgICAnVGFrZSB5b3VyIGhhdCwgaXQgaXMgd2luZHkuIOKAlCDaqdmE2KfZh9iqINix2Kcg2KjYsdiv2KfYsdiMINio2KfYryDZhduM4oCM2KLbjNivLicsCiAgICAgICAgJ0l0IGlzIHJhaW5pbmcuIEkgbmVlZCBteSBqYWNrZXQuIOKAlCDYr9in2LHYryDYqNin2LHYp9mGINmF24zigIzYqNin2LHYry4g2qnYp9m+2LTZhtmFINix2Kcg2YTYp9iy2YUg2K/Yp9ix2YUuJywKICAgICAgXSwKICAgICAgdGlwczogWwogICAgICAgICfYqNi52K8g2KfYsiBJdCBpcyDYqNix2KfbjCDZh9mI2Kcg2YfZhduM2LTZhyDYtdmB2Kog2YXbjOKAjNii24zYr9iMINmG2Ycg2KfYs9mFOiBJdCBpcyBzdW5ueSAo2YbZhyBJdCBpcyBzdW4pLicsCiAgICAgICAgJ3Ryb3VzZXJzINmIIGdsYXNzZXMg2Yggc2hvZXMg2YfZhduM2LTZhyDYrNmF2Lkg2q/Zgdiq2Ycg2YXbjOKAjNi02YjZhtivLicsCiAgICAgIF0sCiAgICB9LAogICAgbWVkaWE6IHt9LAogICAgZXN0aW1hdGVkTWludXRlczogOCwKICAgIHRhZ3M6IFsndm9jYWJ1bGFyeScsICd3ZWF0aGVyJywgJ2Nsb3RoZXMnXSwKICB9LAogIHsKICAgIGlkOiAnbGVzc29uLTAxOCcsCiAgICBtb2R1bGU6ICdTcGVha2luZycsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9iu2LHbjNivOiDZgtuM2YXYqiDZiCBzb21lIC8gYW55JywKICAgIG9yZGVyOiAxOCwKICAgIGNvbnRlbnQ6IHsKICAgICAgdGhlb3J5OgogICAgICAgICc8cD7ZgtuM2YXYqiDZvtix2LPbjNiv2YY6IDxzdHJvbmc+SG93IG11Y2ggaXMgaXQ/PC9zdHJvbmc+ICjZhdmB2LHYrykg2YggPHN0cm9uZz5Ib3cgbXVjaCBhcmUgdGhleT88L3N0cm9uZz4gKNis2YXYuSkuINio2LHYp9uMINmF2YLYr9in2LE6INio2Kcg2KfYs9mF4oCM2YfYp9uMINi624zYsdmC2KfYqNmE4oCM2LTZhdin2LHYtCA8c3Ryb25nPmhvdyBtdWNoPC9zdHJvbmc+INmIINio2Kcg2YLYp9io2YTigIzYtNmF2KfYsdi04oCM2YfYpyA8c3Ryb25nPmhvdyBtYW55PC9zdHJvbmc+OiA8ZW0+SG93IG11Y2ggd2F0ZXI/IEhvdyBtYW55IGVnZ3M/PC9lbT48L3A+PHA+PHN0cm9uZz5zb21lPC9zdHJvbmc+INiv2LEg2KzZhdmE2YfigIzZh9in24wg2YXYq9io2Kog2YXbjOKAjNii24zYryAoPGVtPkkgbmVlZCBzb21lIGJyZWFkPC9lbT4pINmIIDxzdHJvbmc+YW55PC9zdHJvbmc+INiv2LEg2LPYpNin2YQg2Ygg2YXZhtmB24wgKDxlbT5EbyB5b3UgaGF2ZSBhbnkgZWdncz8gSSBkb27igJl0IGhhdmUgYW55IG1vbmV5PC9lbT4pLiDZhtqp2KrZhzog2K/YsSDZvtuM2LTZhtmH2KfYryDZiCDYr9ix2K7ZiNin2LPYqiDZhdik2K/YqNin2YbZhyDZiNiz2Lcg2LPYpNin2YQg2YfZhSBzb21lINmF24zigIzYotuM2K86IDxlbT5Xb3VsZCB5b3UgbGlrZSBzb21lIHRlYT88L2VtPjwvcD4nLAogICAgICBleGFtcGxlczogWwogICAgICAgICdIb3cgbXVjaCBpcyB0aGlzIGJhZz8g4oCUINin24zZhiDaqduM2YEg2obZhtiv2YfYnycsCiAgICAgICAgJ0l04oCZcyB0d2VudHkgZG9sbGFycy4g4oCUINio24zYs9iqINiv2YTYp9ixINin2LPYqi4nLAogICAgICAgICdJIG5lZWQgc29tZSBtaWxrIGFuZCBzb21lIGVnZ3MuIOKAlCDaqdmF24wg2LTbjNixINmIINqG2YbYryDYqtinINiq2K7ZheKAjNmF2LHYuiDZhNin2LLZhSDYr9in2LHZhS4nLAogICAgICAgICdXZSBkb27igJl0IGhhdmUgYW55IGNoZWVzZS4g4oCUINmF2Kcg2KfYtdmE2KfZiyDZvtmG24zYsSDZhtiv2KfYsduM2YUuJywKICAgICAgICAnSG93IG1hbnkgcGVvcGxlIGFyZSB0aGVyZT8g4oCUINqG2YbYryDZhtmB2LEg2YfYs9iq2YbYr9ifJywKICAgICAgICAnQ2FuIEkgaGF2ZSBzb21lIHdhdGVyLCBwbGVhc2U/IOKAlCDZhduM4oCM2LTZiNivINqp2YXbjCDYotioINiv2KfYtNiq2Ycg2KjYp9i02YXYjCDZhNi32YHYp9mL2J8nLAogICAgICBdLAogICAgICB0aXBzOiBbCiAgICAgICAgJ9mI2KfYrdivINm+2YjZhCDYsdinINiz2KfYr9mHINio2q/ZiNuM24zYrzogdGVuIGRvbGxhcnPYjCDZiCDYqNix2KfbjCDYp9uM2LHYp9mGOiB0b21hbnMg2YfZhSDZgtin2KjZhCDZgdmH2YUg2KfYs9iqLicsCiAgICAgICAgJ0V4Y3VzZSBtZSDYp9mI2YTZkCDZvtix2LPbjNiv2YYg2YLbjNmF2KrYjCDar9mB2KrigIzZiNqv2Ygg2LHYpyDZhdik2K/YqNin2YbZhyDZhduM4oCM2qnZhtivLicsCiAgICAgIF0sCiAgICB9LAogICAgbWVkaWE6IHt9LAogICAgZXN0aW1hdGVkTWludXRlczogOSwKICAgIHRhZ3M6IFsnc3BlYWtpbmcnLCAnc2hvcHBpbmcnLCAnc29tZS1hbnknXSwKICB9LAogIHsKICAgIGlkOiAnbGVzc29uLTAxOScsCiAgICBtb2R1bGU6ICdTcGVha2luZycsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9iv2LEg2LHYs9iq2YjYsdin2YY6IHdvdWxkIGxpa2Ug2Ygg2LPZgdin2LHYtCcsCiAgICBvcmRlcjogMTksCiAgICBjb250ZW50OiB7CiAgICAgIHRoZW9yeToKICAgICAgICAnPHA+PHN0cm9uZz53b3VsZCBsaWtlPC9zdHJvbmc+INi02qnZhCDZhdik2K/YqNin2YbZh9mUIMKr2YXbjOKAjNiu2YjYp9mH2YXCuyDYp9iz2KrYmyDaqdmI2KrYp9mH4oCM2LTYr9mH4oCM2KfYtCA8c3Ryb25nPuKAmWQgbGlrZTwvc3Ryb25nPjogPGVtPknigJlkIGxpa2UgYSBjb2ZmZWUsIHBsZWFzZS48L2VtPiDYs9ik2KfZhNuMINio2LHYp9uMINm+24zYtNmG2YfYp9ivOiA8ZW0+V291bGQgeW91IGxpa2Ugc29tZSB0ZWE/PC9lbT4g4oCUINis2YjYp9ioOiA8ZW0+WWVzLCBwbGVhc2UuIC8gTm8sIHRoYW5rIHlvdS48L2VtPjwvcD48cD7YrNmF2YTZh+KAjNmH2KfbjCDaqdmE24zYr9uMINix2LPYqtmI2LHYp9mGOiA8ZW0+Q2FuIEkgaGF2ZSB0aGUgbWVudSwgcGxlYXNlPzwvZW0+ICjZhdmG2Ygg2LHYpyDZhduM4oCM2K/Zh9uM2K/YnynYjCA8ZW0+Q2FuIEkgaGF2ZSB0aGUgYmlsbCwgcGxlYXNlPzwvZW0+ICjYtdmI2LHYquKAjNit2LPYp9io2Iwg2YTYt9mB2KfZiykuINio2LHYp9uMINqv2YHYqtmGIMKr2YXZhiDigKYg2YfYs9iq2YXCuyDZh9mG2q/Yp9mFINiz2YHYp9ix2LQg2KfYsiDYr9ix2LPigIzZh9in24wg2YLYqNmEINin2LPYqtmB2KfYr9mHINqp2YbbjNivOiA8ZW0+SeKAmWQgbGlrZSByaWNlIHdpdGggY2hpY2tlbi48L2VtPjwvcD4nLAogICAgICBleGFtcGxlczogWwogICAgICAgICdJ4oCZZCBsaWtlIGEgY3VwIG9mIHRlYSwgcGxlYXNlLiDigJQg24zaqSDZgdmG2KzYp9mGINqG2KfbjCDZhduM4oCM2K7ZiNin2YfZhdiMINmE2LfZgdin2YsuJywKICAgICAgICAnV291bGQgeW91IGxpa2Ugc29tZSBicmVhZD8g4oCUINqp2YXbjCDZhtin2YYg2YXbjNmEINiv2KfYsduM2K/YnycsCiAgICAgICAgJ0NhbiBJIGhhdmUgdGhlIG1lbnUsIHBsZWFzZT8g4oCUINmF24zigIzYtNmI2K8g2YXZhtmIINix2Kcg2KjYqNuM2YbZhdiMINmE2LfZgdin2YvYnycsCiAgICAgICAgJ1NoZeKAmWQgbGlrZSBhIHNhbGFkLiDigJQg2KfZiCDbjNqpINiz2KfZhNin2K8g2YXbjOKAjNiu2YjYp9mH2K8uJywKICAgICAgICAnQ2FuIEkgaGF2ZSB0aGUgYmlsbCwgcGxlYXNlPyDigJQg2LXZiNix2KrigIzYrdiz2KfYqCDYsdinINmF24zigIzYotmI2LHbjNiv2Iwg2YTYt9mB2KfZi9ifJywKICAgICAgICAnVHdvIGNvZmZlZXMsIHBsZWFzZS4g4oCUINiv2Ygg2YLZh9mI2YfYjCDZhNi32YHYp9mLLicsCiAgICAgIF0sCiAgICAgIHRpcHM6IFsKICAgICAgICAncGxlYXNlINiv2LEg2b7Yp9uM2KfZhiDYrNmF2YTZh9mUINiz2YHYp9ix2LQg2KrZgtix24zYqNin2Ysg2YfZhduM2LTZhyDZhNin2LLZhSDYp9iz2KouJywKICAgICAgICAnSSB3YW50INiv2LHYs9iqINin2LPYqiDZiNmE24wg2YXYs9iq2YLbjNmFINmIINqp2YXbjCDYqNuM4oCM2KfYr9io2KfZhtmHINi02YbbjNiv2Ycg2YXbjOKAjNi02YjYr9ibIEnigJlkIGxpa2Ug2KjZh9iq2LEg2KfYs9iqLicsCiAgICAgIF0sCiAgICB9LAogICAgbWVkaWE6IHt9LAogICAgZXN0aW1hdGVkTWludXRlczogOCwKICAgIHRhZ3M6IFsnc3BlYWtpbmcnLCAncmVzdGF1cmFudCcsICd3b3VsZC1saWtlJ10sCiAgfSwKICB7CiAgICBpZDogJ2xlc3Nvbi0wMjAnLAogICAgbW9kdWxlOiAnR3JhbW1hcicsCiAgICBjZWZyTGV2ZWw6ICdBMScsCiAgICB0aXRsZTogJ9i12YHYquKAjNmH2Kcg2Ygg2YXZgtin24zYs9mH2ZQg2LPYp9iv2YcnLAogICAgb3JkZXI6IDIwLAogICAgY29udGVudDogewogICAgICB0aGVvcnk6CiAgICAgICAgJzxwPti12YHYqiDZgtio2YQg2KfYsiDYp9iz2YUg2YXbjOKAjNii24zYryDZiCDYqNinINmH24zahiDZgdin2LnZhNuMINiq2LrbjNuM2LEg2YbZhduM4oCM2qnZhtivOiA8ZW0+YSBiaWcgaG91c2XYjCBiaWcgaG91c2VzPC9lbT4gKNi12YHYqiDYrNmF2Lkg2YbZhduM4oCM2LTZiNivISkuINiq2LHYqtuM2Kgg2LHYp9uM2Kw6INin2YjZhCDZhti42LHYjCDYqNi52K8g2KfZhtiv2KfYstmH2Iwg2KjYudivINix2YbarzogPGVtPmEgYmVhdXRpZnVsIGJpZyBob3VzZTwvZW0+LjwvcD48cD7ZhdmC2KfbjNiz2YfZlCDYr9mIINqG24zYsiDYqNinIDxzdHJvbmc+LWVyIHRoYW48L3N0cm9uZz46IDxlbT5BbGkgaXMgdGFsbGVyIHRoYW4gUmV6YTwvZW0+LiDYtdmB2KrigIzZh9in24wg2KjZhNmG2K8g2KjYpyA8c3Ryb25nPm1vcmU8L3N0cm9uZz46IDxlbT5tb3JlIGV4cGVuc2l2ZTwvZW0+LiDYs9mHINio24zigIzZgtin2LnYr9mH2ZQg2YXZh9mFOiA8ZW0+Z29vZCDihpIgYmV0dGVy2IwgYmFkIOKGkiB3b3JzZdiMIGZhciDihpIgZmFydGhlcjwvZW0+LiDYqNix2KfbjCDCq9iq2LHbjNmGwrsg2KfYsiA8c3Ryb25nPnRoZSAtZXN0PC9zdHJvbmc+INin2LPYqtmB2KfYr9mHINmF24zigIzaqdmG24zZhTogPGVtPnRoZSBiaWdnZXN0IGNpdHk8L2VtPi48L3A+JywKICAgICAgZXhhbXBsZXM6IFsKICAgICAgICAnTXkgaG91c2UgaXMgYmlnZ2VyIHRoYW4geW91ciBob3VzZS4g4oCUINiu2KfZhtmH2ZQg2YXZhiDYp9iyINiu2KfZhtmH2ZQg2KrZiCDYqNiy2LHar+KAjNiq2LEg2KfYs9iqLicsCiAgICAgICAgJ1RoaXMgYm9vayBpcyBtb3JlIGludGVyZXN0aW5nLiDigJQg2KfbjNmGINqp2KrYp9ioINis2KfZhNio4oCM2KrYsSDYp9iz2KouJywKICAgICAgICAnU2hlIGlzIHRhbGxlciB0aGFuIGhlciBzaXN0ZXIuIOKAlCDYp9mIINin2LIg2K7ZiNin2YfYsdi0INio2YTZhtiv2KrYsSDYp9iz2KouJywKICAgICAgICAnVG9kYXkgaXMgY29sZGVyIHRoYW4geWVzdGVyZGF5LiDigJQg2KfZhdix2YjYsiDYp9iyINiv24zYsdmI2LIg2LPYsdiv2KrYsSDYp9iz2KouJywKICAgICAgICAnSGUgaXMgdGhlIGJlc3Qgc3R1ZGVudCBpbiBjbGFzcy4g4oCUINin2Ygg2KjZh9iq2LHbjNmGINiv2KfZhti04oCM2KLZhdmI2LIg2qnZhNin2LMg2KfYs9iqLicsCiAgICAgICAgJ0EgY2FyIGlzIGZhc3RlciB0aGFuIGEgYmlrZS4g4oCUINmF2KfYtNuM2YYg2KfYsiDYr9mI2obYsdiu2Ycg2LPYsduM2LnigIzYqtixINin2LPYqi4nLAogICAgICBdLAogICAgICB0aXBzOiBbCiAgICAgICAgJ9io2LnYryDYp9iyINi12YHYqiDZhdmC2KfbjNiz2YfigIzYp9uMINiq2YLYsduM2KjYp9mLINmH2YXbjNi02YcgdGhhbiDZhduM4oCM2KLbjNivLicsCiAgICAgICAgJ9i12YHYquKAjNmH2KfbjCDbjNqp4oCM2KjYrti024wg2qnZiNiq2KfZhyDYqNinIHkg2KrZhdin2YXigIzYtNiv2Yc6IGhhcHB5IOKGkiBoYXBwaWVyICh5INmF24zigIzYtNmI2K8gaSkuJywKICAgICAgXSwKICAgIH0sCiAgICBtZWRpYToge30sCiAgICBlc3RpbWF0ZWRNaW51dGVzOiA5LAogICAgdGFnczogWydncmFtbWFyJywgJ2FkamVjdGl2ZXMnLCAnY29tcGFyaXNvbiddLAogIH0sCl07Cg==
+import type { Lesson } from '@/types';
+
+/**
+ * A1 content pack 2 (content version 3) — lessons 11–20.
+ * Continues the pack-1 syllabus: possession, demonstratives, place,
+ * ability, present continuous, calendar, weather, shopping, restaurant,
+ * adjectives and comparison. Self-contained: no external media.
+ */
+export const a1Lessons2: Lesson[] = [
+  {
+    id: 'lesson-011',
+    module: 'Grammar',
+    cefrLevel: 'A1',
+    title: 'مالکیت: my / your / his و ’s',
+    order: 11,
+    content: {
+      theory:
+        '<p>برای گفتن «مالِ کی» از این کلمه‌ها استفاده می‌کنیم: <strong>my</strong> (مال من)، <strong>your</strong> (مال تو/شما)، <strong>his</strong> (مال او – مرد)، <strong>her</strong> (مال او – زن)، <strong>our</strong> (مال ما)، <strong>their</strong> (مال آن‌ها). این‌ها همیشه قبل از اسم می‌آیند: <em>my book</em> — کتاب من.</p><p>راه دوم، آپاستروف s است: <strong>Ali’s car</strong> یعنی «ماشینِ علی». برای جمع‌ها s آخر جمله می‌رود بعد از s جمع: <em>the students’ books</em>.</p>',
+      examples: [
+        'This is my phone. — این گوشیِ من است.',
+        'Her name is Maryam. — اسم او مریم است.',
+        'Our house is big. — خانهٔ ما بزرگ است.',
+        'That is Reza’s bike. — آن دوچرخهٔ رضاست.',
+        'Their children are at school. — بچه‌های آن‌ها در مدرسه‌اند.',
+        'Is this your bag? — این کیفِ توست؟',
+      ],
+      tips: [
+        'his فقط برای مرد و her فقط برای زن است؛ اشتباه رایج فارسی‌زبان‌ها.',
+        'its یعنی «مالِ آن (چیز/حیوان)» و با it’s (مخفف it is) فرق دارد.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 8,
+    tags: ['grammar', 'possessive', 'a1'],
+  },
+  {
+    id: 'lesson-012',
+    module: 'Grammar',
+    cefrLevel: 'A1',
+    title: 'این و آن + جمع بستن اسم‌ها',
+    order: 12,
+    content: {
+      theory:
+        '<p>چهار کلمهٔ اشاره داریم: <strong>this</strong> (این، نزدیک و مفرد)، <strong>that</strong> (آن، دور و مفرد)، <strong>these</strong> (این‌ها، نزدیک و جمع)، <strong>those</strong> (آن‌ها، دور و جمع).</p><p>جمع بستن معمولاً با <strong>-s</strong> است: <em>book → books</em>. اگر کلمه به s، x، ch یا sh تمام شود <strong>-es</strong> می‌گیرد: <em>bus → buses، watch → watches</em>. اگر به حرف بی‌صدا + y تمام شود، y می‌شود <strong>ies</strong>: <em>city → cities</em>. چند جمع بی‌قاعدهٔ مهم: <em>man → men، woman → women، child → children، person → people</em>.</p>',
+      examples: [
+        'This is my book. — این کتاب من است.',
+        'Those are my friends. — آن‌ها دوستان من‌اند.',
+        'These shoes are new. — این کفش‌ها تازه‌اند.',
+        'I have two watches. — من دو ساعت (مچی) دارم.',
+        'There are three children in the park. — سه بچه در پارک هستند.',
+        'These cities are old. — این شهرها قدیمی‌اند.',
+      ],
+      tips: [
+        'people خودش جمع است؛ نگوییم peoples.',
+        'these را «دیز» و those را «دُوز» تلفظ می‌کنیم.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 9,
+    tags: ['grammar', 'plurals', 'demonstratives'],
+  },
+  {
+    id: 'lesson-013',
+    module: 'Grammar',
+    cefrLevel: 'A1',
+    title: 'حروف اضافهٔ مکان: کجاست؟',
+    order: 13,
+    content: {
+      theory:
+        '<p>برای گفتن جای چیزها: <strong>in</strong> (داخل)، <strong>on</strong> (روی سطح)، <strong>under</strong> (زیر)، <strong>next to</strong> (کنار)، <strong>behind</strong> (پشت)، <strong>in front of</strong> (جلو)، <strong>between</strong> (بین دو چیز).</p><p>سؤالِ «کجاست؟» می‌شود: <strong>Where is …?</strong> و با الگوی درس ۱۰ جواب می‌دهیم: <em>The cat is under the table.</em></p>',
+      examples: [
+        'The book is on the table. — کتاب روی میز است.',
+        'The cat is under the chair. — گربه زیر صندلی است.',
+        'My bag is next to the door. — کیفم کنار در است.',
+        'The bank is between the café and the shop. — بانک بین کافه و مغازه است.',
+        'Where is the key? It is in my pocket. — کلید کجاست؟ توی جیبم است.',
+        'The car is in front of the house. — ماشین جلوی خانه است.',
+      ],
+      tips: [
+        'on برای «روی سطح» است: on the wall (روی دیوار)، on the table.',
+        'at برای نشانی و مکان‌های مشخص می‌آید: at home، at school.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 8,
+    tags: ['grammar', 'prepositions', 'place'],
+  },
+  {
+    id: 'lesson-014',
+    module: 'Grammar',
+    cefrLevel: 'A1',
+    title: 'توانایی: can و can’t',
+    order: 14,
+    content: {
+      theory:
+        '<p><strong>can</strong> یعنی «می‌توانم / بلدم» و <strong>can’t</strong> یعنی «نمی‌توانم». بعد از can همیشه شکل سادهٔ فعل می‌آید، بدون to: <em>I can swim</em> (نگید I can to swim).</p><p>سؤالی: <em>Can you drive?</em> — جواب کوتاه: <em>Yes, I can. / No, I can’t.</em> برای درخواست مؤدبانه هم می‌گوییم: <em>Can you help me, please?</em></p>',
+      examples: [
+        'I can speak English. — می‌توانم انگلیسی صحبت کنم.',
+        'She can ride a bike. — او می‌تواند دوچرخه‌سواری کند.',
+        'He can’t drive. — او نمی‌تواند رانندگی کند.',
+        'Can you swim? — Yes, I can. — شنا بلدی؟ بله.',
+        'We can play football today. — امروز می‌توانیم فوتبال بازی کنیم.',
+        'Can you help me, please? — می‌شود کمکم کنی، لطفاً؟',
+      ],
+      tips: [
+        'can برای همهٔ فاعل‌ها یکی است: I can، he can، they can — s نمی‌گیرد.',
+        'در متن رسمی can’t را cannot هم می‌نویسند.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 7,
+    tags: ['grammar', 'can', 'ability'],
+  },
+  {
+    id: 'lesson-015',
+    module: 'Grammar',
+    cefrLevel: 'A1',
+    title: 'حال استمراری: همین الان',
+    order: 15,
+    content: {
+      theory:
+        '<p>برای کاری که <strong>همین الان در حال انجام</strong> است: فاعل + <strong>am/is/are</strong> + فعل با <strong>-ing</strong>: <em>I am reading now</em>.</p><p>منفی: <em>She is not sleeping</em>. سؤالی: <em>Are you working?</em> چند قاعدهٔ -ing: اگر فعل به e تمام شود e حذف می‌شود (<em>write → writing</em>)؛ فعل‌های کوتاه با یک حرف صدادار معمولاً حرف آخرشان دوتا می‌شود (<em>run → running، sit → sitting</em>).</p><p>فرقش با حال ساده: حال ساده = عادت و همیشه (<em>I read every night</em>)؛ استمراری = فقط الان (<em>I am reading now</em>).</p>',
+      examples: [
+        'I am studying English now. — الان دارم انگلیسی می‌خوانم.',
+        'Look! It is raining. — نگاه کن! دارد باران می‌بارد.',
+        'They are playing in the garden. — دارند در باغ بازی می‌کنند.',
+        'She is not listening. — او گوش نمی‌دهد.',
+        'What are you doing? — داری چه کار می‌کنی؟',
+        'He is running to school. — دارد به طرف مدرسه می‌دود.',
+      ],
+      tips: [
+        'نشانه‌های این زمان: now، right now، Look!، Listen!',
+        'فعل‌هایی مثل know و want معمولاً -ing نمی‌گیرند.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 10,
+    tags: ['grammar', 'present-continuous'],
+  },
+  {
+    id: 'lesson-016',
+    module: 'Vocab',
+    cefrLevel: 'A1',
+    title: 'ماه‌ها، فصل‌ها و تاریخ',
+    order: 16,
+    content: {
+      theory:
+        '<p>ماه‌های میلادی: <strong>January, February, March, April, May, June, July, August, September, October, November, December</strong>. فصل‌ها: <strong>spring</strong> (بهاری)، <strong>summer</strong> (تابستان)، <strong>autumn</strong> (پاییز)، <strong>winter</strong> (زمستان).</p><p>برای تاریخ از اعداد ترتیبی استفاده می‌کنیم: <em>first (1st), second (2nd), third (3rd), fourth (4th)</em> و بعد الگو یکی است: <em>fifth, sixth… twentieth, twenty-first</em>. تاریخ را این‌طور می‌گوییم: <em>my birthday is on May 3rd</em> — با حرف اضافهٔ <strong>on</strong> برای روز و تاریخ، و <strong>in</strong> برای ماه و فصل و سال.</p>',
+      examples: [
+        'My birthday is in June. — تولدم در ماه ژوئن است.',
+        'School starts on September 1st. — مدرسه اول سپتامبر شروع می‌شود.',
+        'It is cold in winter. — در زمستان هوا سرد است.',
+        'Her birthday is on the 21st of March. — تولد او ۲۱ مارس است.',
+        'We travel in summer. — ما در تابستان سفر می‌کنیم.',
+        'Today is the third of May. — امروز سوم مه است.',
+      ],
+      tips: [
+        'ماه‌ها در انگلیسی همیشه با حرف بزرگ نوشته می‌شوند.',
+        'on برای روز مشخص، in برای ماه/فصل/سال — این تمایز را حفظ کنید.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 8,
+    tags: ['vocabulary', 'months', 'dates'],
+  },
+  {
+    id: 'lesson-017',
+    module: 'Vocab',
+    cefrLevel: 'A1',
+    title: 'آب‌وهوا و لباس',
+    order: 17,
+    content: {
+      theory:
+        '<p>سؤالِ هوا: <strong>What’s the weather like today?</strong> جواب با <strong>It is</strong> شروع می‌شود: <em>It is sunny</em> (آفتابی)، <em>cloudy</em> (ابری)، <em>windy</em> (بادی)، <em>rainy</em> (بارانی)، <em>snowy</em> (برفی)، <em>hot / warm / cool / cold</em> (گرم / ملایم‌گرم / خنک / سرد). برای باران و برفِ در حال بارش: <em>It is raining / snowing</em> (درس ۱۵).</p><p>لباس‌ها: <strong>shirt</strong> (پیراهن)، <strong>T-shirt</strong>، <strong>trousers</strong> (شلوار)، <strong>dress</strong> (پیراهن زنانه)، <strong>coat</strong> (پالتو)، <strong>jacket</strong> (کاپشن)، <strong>shoes</strong> (کفش)، <strong>hat</strong> (کلاه)، <strong>glasses</strong> (عینک). پوشیدن = <em>wear</em>: <em>She is wearing a red dress.</em></p>',
+      examples: [
+        'It is sunny and warm today. — امروز هوا آفتابی و گرم است.',
+        'It is very cold in Yazd in winter. — زمستان در یزد خیلی سرد است.',
+        'What’s the weather like? — It’s cloudy. — هوا چطور است؟ ابری است.',
+        'He is wearing a black coat. — او پالتوی مشکی پوشیده است.',
+        'Take your hat, it is windy. — کلاهت را بردار، باد می‌آید.',
+        'It is raining. I need my jacket. — دارد باران می‌بارد. کاپشنم را لازم دارم.',
+      ],
+      tips: [
+        'بعد از It is برای هوا همیشه صفت می‌آید، نه اسم: It is sunny (نه It is sun).',
+        'trousers و glasses و shoes همیشه جمع گفته می‌شوند.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 8,
+    tags: ['vocabulary', 'weather', 'clothes'],
+  },
+  {
+    id: 'lesson-018',
+    module: 'Speaking',
+    cefrLevel: 'A1',
+    title: 'خرید: قیمت و some / any',
+    order: 18,
+    content: {
+      theory:
+        '<p>قیمت پرسیدن: <strong>How much is it?</strong> (مفرد) و <strong>How much are they?</strong> (جمع). برای مقدار: با اسم‌های غیرقابل‌شمارش <strong>how much</strong> و با قابل‌شمارش‌ها <strong>how many</strong>: <em>How much water? How many eggs?</em></p><p><strong>some</strong> در جمله‌های مثبت می‌آید (<em>I need some bread</em>) و <strong>any</strong> در سؤال و منفی (<em>Do you have any eggs? I don’t have any money</em>). نکته: در پیشنهاد و درخواست مؤدبانه وسط سؤال هم some می‌آید: <em>Would you like some tea?</em></p>',
+      examples: [
+        'How much is this bag? — این کیف چنده؟',
+        'It’s twenty dollars. — بیست دلار است.',
+        'I need some milk and some eggs. — کمی شیر و چند تا تخم‌مرغ لازم دارم.',
+        'We don’t have any cheese. — ما اصلاً پنیر نداریم.',
+        'How many people are there? — چند نفر هستند؟',
+        'Can I have some water, please? — می‌شود کمی آب داشته باشم، لطفاً؟',
+      ],
+      tips: [
+        'واحد پول را ساده بگویید: ten dollars، و برای ایران: tomans هم قابل فهم است.',
+        'Excuse me اولِ پرسیدن قیمت، گفت‌وگو را مؤدبانه می‌کند.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 9,
+    tags: ['speaking', 'shopping', 'some-any'],
+  },
+  {
+    id: 'lesson-019',
+    module: 'Speaking',
+    cefrLevel: 'A1',
+    title: 'در رستوران: would like و سفارش',
+    order: 19,
+    content: {
+      theory:
+        '<p><strong>would like</strong> شکل مؤدبانهٔ «می‌خواهم» است؛ کوتاه‌شده‌اش <strong>’d like</strong>: <em>I’d like a coffee, please.</em> سؤالی برای پیشنهاد: <em>Would you like some tea?</em> — جواب: <em>Yes, please. / No, thank you.</em></p><p>جمله‌های کلیدی رستوران: <em>Can I have the menu, please?</em> (منو را می‌دهید؟)، <em>Can I have the bill, please?</em> (صورت‌حساب، لطفاً). برای گفتن «من … هستم» هنگام سفارش از درس‌های قبل استفاده کنید: <em>I’d like rice with chicken.</em></p>',
+      examples: [
+        'I’d like a cup of tea, please. — یک فنجان چای می‌خواهم، لطفاً.',
+        'Would you like some bread? — کمی نان میل دارید؟',
+        'Can I have the menu, please? — می‌شود منو را ببینم، لطفاً؟',
+        'She’d like a salad. — او یک سالاد می‌خواهد.',
+        'Can I have the bill, please? — صورت‌حساب را می‌آورید، لطفاً؟',
+        'Two coffees, please. — دو قهوه، لطفاً.',
+      ],
+      tips: [
+        'please در پایان جملهٔ سفارش تقریباً همیشه لازم است.',
+        'I want درست است ولی مستقیم و کمی بی‌ادبانه شنیده می‌شود؛ I’d like بهتر است.',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 8,
+    tags: ['speaking', 'restaurant', 'would-like'],
+  },
+  {
+    id: 'lesson-020',
+    module: 'Grammar',
+    cefrLevel: 'A1',
+    title: 'صفت‌ها و مقایسهٔ ساده',
+    order: 20,
+    content: {
+      theory:
+        '<p>صفت قبل از اسم می‌آید و با هیچ فاعلی تغییر نمی‌کند: <em>a big house، big houses</em> (صفت جمع نمی‌شود!). ترتیب رایج: اول نظر، بعد اندازه، بعد رنگ: <em>a beautiful big house</em>.</p><p>مقایسهٔ دو چیز با <strong>-er than</strong>: <em>Ali is taller than Reza</em>. صفت‌های بلند با <strong>more</strong>: <em>more expensive</em>. سه بی‌قاعدهٔ مهم: <em>good → better، bad → worse، far → farther</em>. برای «ترین» از <strong>the -est</strong> استفاده می‌کنیم: <em>the biggest city</em>.</p>',
+      examples: [
+        'My house is bigger than your house. — خانهٔ من از خانهٔ تو بزرگ‌تر است.',
+        'This book is more interesting. — این کتاب جالب‌تر است.',
+        'She is taller than her sister. — او از خواهرش بلندتر است.',
+        'Today is colder than yesterday. — امروز از دیروز سردتر است.',
+        'He is the best student in class. — او بهترین دانش‌آموز کلاس است.',
+        'A car is faster than a bike. — ماشین از دوچرخه سریع‌تر است.',
+      ],
+      tips: [
+        'بعد از صفت مقایسه‌ای تقریباً همیشه than می‌آید.',
+        'صفت‌های یک‌بخشی کوتاه با y تمام‌شده: happy → happier (y می‌شود i).',
+      ],
+    },
+    media: {},
+    estimatedMinutes: 9,
+    tags: ['grammar', 'adjectives', 'comparison'],
+  },
+];
