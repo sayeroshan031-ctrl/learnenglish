@@ -8,6 +8,7 @@ import Flashcards from './components/Flashcards'
 import Onboarding from './components/Onboarding'
 import { seedDatabase } from './db/seed'
 import { useAppStore } from './store/useAppStore'
+import { initReminders } from './utils/notifications'
 
 function App() {
   const isOnboarded = useAppStore((s) => s.isOnboarded)
@@ -15,6 +16,7 @@ function App() {
 
   useEffect(() => {
     seedDatabase('guest').catch(console.error)
+    initReminders().catch(console.error)
   }, [])
 
   if (!isOnboarded && location.pathname !== '/welcome') {
