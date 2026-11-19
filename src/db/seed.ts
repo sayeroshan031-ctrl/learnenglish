@@ -3,17 +3,21 @@ import { a1Lessons } from '@/data/a1Lessons';
 import { a1Lessons2 } from '@/data/a1Lessons2';
 import { a1Lessons3 } from '@/data/a1Lessons3';
 import { a1Lessons4 } from '@/data/a1Lessons4';
+import { a2LessonsA } from '@/data/a2LessonsA';
+import { a2LessonsB } from '@/data/a2LessonsB';
 import { a1Flashcards } from '@/data/a1Flashcards';
 import { a1Flashcards2 } from '@/data/a1Flashcards2';
 import { a1Flashcards3 } from '@/data/a1Flashcards3';
 import { a1Flashcards4 } from '@/data/a1Flashcards4';
+import { a2FlashcardsA } from '@/data/a2FlashcardsA';
+import { a2FlashcardsB } from '@/data/a2FlashcardsB';
 
 /**
  * Content versioning: when CONTENT_VERSION increases, bundled content
  * (lessons + flashcards) is replaced and lesson progress is reset,
  * because progress refers to the old content. User profiles are kept.
  */
-export const CONTENT_VERSION = 5;
+export const CONTENT_VERSION = 6;
 const VERSION_KEY = 'zabanyar-content-version';
 
 function storedVersion(): number {
@@ -36,9 +40,9 @@ export async function seedDatabase(userId: string): Promise<void> {
     await db.flashcards.clear();
     await db.userProgress.clear();
 
-    await db.lessons.bulkAdd([...a1Lessons, ...a1Lessons2, ...a1Lessons3, ...a1Lessons4]);
+    await db.lessons.bulkAdd([...a1Lessons, ...a1Lessons2, ...a1Lessons3, ...a1Lessons4, ...a2LessonsA, ...a2LessonsB]);
 
-    const flashcards = [...a1Flashcards, ...a1Flashcards2, ...a1Flashcards3, ...a1Flashcards4].map((fc) => ({
+    const flashcards = [...a1Flashcards, ...a1Flashcards2, ...a1Flashcards3, ...a1Flashcards4, ...a2FlashcardsA, ...a2FlashcardsB].map((fc) => ({
       ...fc,
       id: crypto.randomUUID(),
       userId,
