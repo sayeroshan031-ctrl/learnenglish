@@ -3,6 +3,7 @@ import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import Dashboard from './components/Dashboard'
 import Lessons from './components/Lessons'
 import LessonPage from './components/LessonPage'
+import QuizPage from './components/QuizPage'
 import Flashcards from './components/Flashcards'
 import Onboarding from './components/Onboarding'
 import { seedDatabase } from './db/seed'
@@ -27,6 +28,7 @@ function App() {
         <Route path="/welcome" element={<Onboarding />} />
         <Route path="/lessons" element={<Lessons />} />
         <Route path="/lessons/:id" element={<LessonPage />} />
+        <Route path="/lessons/:id/quiz" element={<QuizPage />} />
         <Route path="/flashcards" element={<Flashcards />} />
       </Routes>
     </div>
