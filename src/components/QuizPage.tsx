@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { quizzes } from '@/data/quizzes';
+import { logActivity } from '@/utils/activity';
 
 function bestKey(lessonId: string) {
   return `zabanyar-quiz-best-${lessonId}`;
@@ -66,6 +67,7 @@ function QuizPage() {
       return;
     }
     const finalScore = score;
+    logActivity('quiz', 1);
     if (id && (best === null || finalScore > best)) {
       try {
         localStorage.setItem(bestKey(id), String(finalScore));
