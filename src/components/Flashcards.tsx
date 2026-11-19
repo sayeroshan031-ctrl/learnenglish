@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { useAppStore } from '@/store/useAppStore';
 import { calculateSM2, getNextReviewDate } from '@/utils/sm2';
+import { logActivity } from '@/utils/activity';
 import SpeakButton from './SpeakButton';
 
 const GRADES: { label: string; quality: number; className: string }[] = [
@@ -65,6 +66,7 @@ function Flashcards() {
           nextReviewAt: getNextReviewDate(res.interval),
         },
       });
+      logActivity('cards', 1);
       setReviewedIds((prev) => [...prev, current.id]);
       setFlipped(false);
     } finally {
