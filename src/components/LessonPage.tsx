@@ -130,6 +130,12 @@ function LessonPage() {
             {saving ? 'در حال ثبت…' : 'تکمیل درس ✓'}
           </button>
         )}
+        <Link
+          to={`/lessons/${lesson.id}/quiz`}
+          className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700"
+        >
+          📝 آزمون این درس
+        </Link>
         {nextLesson && (
           <Link
             to={`/lessons/${nextLesson.id}`}
