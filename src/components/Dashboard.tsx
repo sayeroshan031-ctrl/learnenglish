@@ -3,6 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { useAppStore } from '@/store/useAppStore';
 import { exportBackup, importBackup } from '@/utils/backup';
+import Reminders from './Reminders';
 
 function Dashboard() {
   const currentUser = useAppStore((s) => s.currentUser);
@@ -62,6 +63,8 @@ function Dashboard() {
           </p>
         </div>
       </div>
+
+      <Reminders />
 
       <div className="mb-6 flex gap-3">
         <Link
