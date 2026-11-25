@@ -44,6 +44,35 @@ export function englishPart(text: string): string {
   return (english.length > 0 ? english : [text]).join(' ').trim();
 }
 
+function pickPersianVoice(): SpeechSynthesisVoice | null {
+  const voices = window.speechSynthesis
+    .getVoices()
+    .filter((v) => v.lang && v.lang.toLowerCase().startsWith('fa'));
+  return voices.length > 0 ? voices[0] : null;
+}
+
+/**
+ * Speak Persian text aloud with the device's own Persian voice (e.g.
+ * Google TTS fa-IR on Android), when one is installed. Free and fully
+ * on-device. Returns false — silently — when no Persian voice exists,
+ * so callers can show a button that simply does nothing on such devices.
+ */
+export function speakPersian(text: string): boolean {
+  if (!speechSupported()) return false;
+  const clean = text.replace(/<[^>]*>/g, '').trim();
+  if (!clean) return false;
+  const voice = pickPersianVoice();
+  if (!voice) return false;
+  const synth = window.speechSynthesis;
+  synth.cancel();
+  const utterance = new SpeechSynthesisUtterance(clean);
+  utterance.lang = voice.lang || 'fa-IR';
+  utterance.voice = voice;
+  utterance.rate = 0.95;
+  synth.speak(utterance);
+  return true;
+}
+
 /** Speak English text aloud. Returns false when speech is unavailable. */
 export function speak(text: string): boolean {
   if (!speechSupported()) return false;
