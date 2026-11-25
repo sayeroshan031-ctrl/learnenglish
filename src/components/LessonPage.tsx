@@ -5,6 +5,7 @@ import { db } from '@/db/db';
 import { useAppStore } from '@/store/useAppStore';
 import { MODULE_FA } from '@/utils/labels';
 import SpeakButton from './SpeakButton';
+import HiddenTutor from './HiddenTutor';
 
 function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -12,6 +13,7 @@ function LessonPage() {
   const userId = currentUser?.id ?? 'guest';
   const startedAt = useRef(Date.now());
   const [saving, setSaving] = useState(false);
+  const [showTutor, setShowTutor] = useState(false);
 
   const lesson = useLiveQuery(() => (id ? db.lessons.get(id) : undefined), [id]);
   const allLessons = useLiveQuery(() => db.lessons.orderBy('order').toArray());
@@ -116,7 +118,17 @@ function LessonPage() {
         </div>
       )}
 
+      {showTutor && (
+        <HiddenTutor lesson={lesson} onClose={() => setShowTutor(false)} />
+      )}
+
       <div className="flex items-center gap-3 mt-6">
+        <button
+          onClick={() => setShowTutor((v) => !v)}
+          className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700"
+        >
+          🎓 تمرین با مربی
+        </button>
         {completed ? (
           <span className="bg-green-600 text-white px-4 py-2 rounded">
             ✅ تکمیل شد
