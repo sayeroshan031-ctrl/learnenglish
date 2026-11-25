@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/db/db';
 import { quizzes } from '@/data/quizzes';
 import { logActivity } from '@/utils/activity';
+import { speakPersian } from '@/utils/speak';
 
 function bestKey(lessonId: string) {
   return `zabanyar-quiz-best-${lessonId}`;
@@ -188,9 +189,20 @@ function QuizPage() {
           >
             <p className="font-bold">{selected === q.answer ? '✅ درست است!' : '❌ نادرست است.'}</p>
             {q.why && (
-              <p dir="auto" className="mt-1">
-                {q.why}
-              </p>
+              <div className="mt-1 flex items-start gap-2">
+                <p dir="auto" className="flex-1">
+                  {q.why}
+                </p>
+                <button
+                  type="button"
+                  onClick={() => q.why && speakPersian(q.why)}
+                  aria-label="خواندن توضیح به فارسی"
+                  title="خواندن توضیح به فارسی (با صدای فارسی دستگاه، اگر نصب باشد)"
+                  className="shrink-0 rounded-full bg-white/70 px-2 py-0.5 text-base shadow-sm"
+                >
+                  🔊
+                </button>
+              </div>
             )}
           </div>
         )}
